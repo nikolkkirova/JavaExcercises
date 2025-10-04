@@ -9,7 +9,7 @@ public class Course {
 
     public Course(String name, int credits, CourseType courseType) {
         Course.createdCourses++;
-        this.id = Course.createdCourses++;
+        this.id = Course.createdCourses;
         this.name = name;
         this.credits = credits;
         this.courseType = courseType;
